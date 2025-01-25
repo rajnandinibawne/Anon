@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navlist {
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    list-style-type: none;
+    /* gap: 5px; */
+    /* margin-top: 15px; */
+    color: black;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+
+.navbarlink {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.active {
+    text-decoration: underline;
+    text-decoration: underline pink;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px;
+    color: palevioletred;
+}
+
+
+/* .navbarlinkr {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.35rem;
+} */
+
+.navbarlink:hover {
+    color: palevioletred;
+    text-decoration: underline pink;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px;
+}
+
+.navbarlinkr:hover {
+    color: palevioletred;
+    text-decoration: underline rgb(215, 66, 91);
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px;
+}
+
+.dropdown {
+    /* top: 10; */
+    position: absolute;
+    /* top: 100%; */
+    /* left: 40; */
+    background-color: #ffffff;
+    width: 200px;
+    display: block;
+    z-index: 10;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background: none;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+        /* Start slightly below */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        /* End at the original position */
+    }
+}
+
+@media(max-width:700px) {
+    .navlist {
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        list-style-type: none;
+        margin-top: 15px;
+        /* gap: -15px; */
+        color: black;
+        /* justify-content: space-evenly; */
+        background-color: transparent;
+    }
+    .navbarlink {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 0.5rem;
+    }
+    .navbarlink:hover {
+        color: palevioletred;
+        text-decoration: underline pink;
+        text-decoration-thickness: 4px;
+        /* Adjust the thickness of the underline */
+        text-underline-offset: 10px;
+    }
+    .dropdown {
+        top: 10;
+        position: absolute;
+        /* top: 100%; */
+        /* left: 40; */
+        /* background-color: #444; */
+        /* width: 200px; */
+        display: block;
+        z-index: 10;
+    }
+    .navbarlinkr {
+        display: none;
+    }
+}

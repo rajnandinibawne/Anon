@@ -1,0 +1,43 @@
+.men_AD {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    gap: 20px;
+    /* height: 350px; */
+    width: 93%;
+    margin-bottom: 2rem;
+}
+
+.photos_AD {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.posters {
+    height: 500px;
+    width: 50%;
+}
+
+.sec_AD {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.sec_ADposters {
+    height: 240px;
+    width: 290px;
+}
+
+.up_AD {
+    display: flex;
+    gap: 30px;
+}
+
+.down_posters {
+    height: 240px;
+    width: 605px;
+}

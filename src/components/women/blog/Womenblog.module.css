@@ -1,0 +1,85 @@
+.Women_blog {
+    margin: 25px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    /* border: 1px solid green; */
+    height: 550px;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.main_blog_women {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px; */
+    margin-top: 15px;
+    width: 100%;
+    height: 90%;
+    gap: 20px;
+}
+
+.women_left_blog {
+    /* margin: 5px; */
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    /* margin-left: -180px; */
+    /* border: 1px solid red; */
+}
+
+.pic_left_blog {
+    width: 100%;
+    height: 100%;
+}
+
+.women_right_blog {
+    width: 40%;
+    /* height: 90%; */
+    margin-top: 20px;
+    border: 1px solid yellow;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.blog_card {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    height: 100px;
+    width: 94%;
+    /* margin: 5px; */
+    padding: 8px;
+    /* border: 1px solid black; */
+    margin-bottom: 6x;
+}
+
+.img_blog {
+    height: 100px;
+    /* width: 50%; */
+}
+
+.blog_info {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+h3 {
+    color: palevioletred;
+    opacity: 0.9;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+h4 {
+    opacity: 0.55;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+p {
+    font-size: 0.9rem;
+}

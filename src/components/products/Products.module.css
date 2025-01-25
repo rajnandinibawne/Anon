@@ -1,0 +1,141 @@
+.products_main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.sidebar {
+    width: 20%;
+    border-radius: 10px;
+    padding: 20px;
+    position: -webkit-sticky;
+    /* For Safari */
+    position: sticky;
+    top: 10%;
+}
+
+.side_category {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    /* gap: 15px; */
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.category_name {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.plus_btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.subcategories {
+    border: 0.5px solid rgb(246, 228, 231);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 5px;
+    /* justify-content: space-between; */
+}
+
+.option {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.side_bottom {
+    margin-top: 25px;
+}
+
+.star_icon {
+    color: gold;
+}
+
+.card_BestSellers {
+    height: 90px;
+    width: 250px;
+    /* border: 1px solid rgb(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 15px;
+    display: flex;
+    padding-right: 10px;
+    background-color: rgb(250, 247, 247, 0.35);
+}
+
+.right_product {
+    /* margin-left: 10px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three equal columns */
+    gap: 15px;
+    /* position: absolute; */
+}
+
+.twocard {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card_product {
+    height: 100px;
+    width: 300px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    padding: 10px;
+}
+
+.prod_pic {
+    height: 60px;
+    width: 60px;
+    /* border: 1px solid rgba(210, 22, 22, 0.2); */
+    align-items: center;
+    margin-top: 8px;
+    margin-right: 15px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.prod_info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* margin-top: 5px; */
+}
+
+.prod_price {
+    display: flex;
+    gap: 15px;
+}
+
+.prod_title {
+    color: black;
+}
+
+.prod_subtitle {
+    opacity: 0.6;
+}
+
+.realprice {
+    color: red;
+    opacity: 0.7;
+}
+
+.fakeprice {
+    opacity: 0.5;
+}

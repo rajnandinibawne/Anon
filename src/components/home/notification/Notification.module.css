@@ -1,0 +1,46 @@
+.notification_block {
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 350px;
+    height: 100px;
+    /* position: sticky; */
+    gap: 30px;
+    /* margin-top: 355px; */
+    margin: 50px;
+    /* box-shadow: ; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 25px;
+    position: fixed;
+    z-index: 1000;
+    margin-top: 550px;
+    /* transition: transform 1s ease, opacity 0.3s ease;
+    transform: translateX(-10%); */
+    /* Start from left */
+    /* opacity: 0; */
+    /* Initially hidden */
+    transition: transform 0.5s ease, opacity 0.3s ease;
+    /* transform: translateY(100%) */
+}
+
+.block_img {
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+}
+
+.block_info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.block_btn {
+    background-color: rgb(254, 231, 235);
+    padding: 6px;
+    height: 25px;
+    width: 25px;
+    border: none;
+}

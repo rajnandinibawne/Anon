@@ -1,0 +1,17 @@
+.wholetimer {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.timer_part {
+    height: 50px;
+    width: 90px;
+    font-size: 1.2rem;
+    background-color: rgb(248, 204, 211);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}

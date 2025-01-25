@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.bigproducts {
+    height: 550px;
+    display: flex;
+    gap: 35x;
+    width: 1000px;
+    /* padding: 20px; */
+    /* width: 100%; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* margin-right: 10px; */
+    margin-bottom: 20px;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: #b9b7b7 #f4f4f4;
+    -ms-overflow-style: none;
+    /* For Internet Explorer */
+    scrollbar-width: thin;
+    /* For Firefox */
+    scrollbar-color: transparent transparent;
+}
+
+.bigproducts:hover {
+    scrollbar-color: rgb(255, 223, 228) #f4f4f4;
+}
+
+.big_cardoffer {
+    box-sizing: border-box;
+    margin: 15px;
+    display: flex;
+    width: 970px;
+    /* Increased width to 600px */
+    height: auto;
+    /* Ensures dynamic height if needed */
+    border: 1px solid #ddd;
+    /* margin: 10px; */
+    flex-shrink: 0;
+    /* Prevents shrinking */
+    flex-grow: 0;
+    /* Prevents growing */
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 15px;
+    /* Optional for rounded corners */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    /* Optional for a shadow effect */
+}
+
+.big_pic {
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    background-color: #f4f4f4;
+    /* border: 1px solid black; */
+    background-size: cover;
+    background-position: center;
+}
+
+.stars {
+    color: gold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.big_info {
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    max-width: 450px;
+    /* Ensure it's contained */
+    box-sizing: border-box;
+}
+
+.big_price {
+    display: flex;
+    /* justify-content:flex; */
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.paras_lorem {
+    margin-right: 20px;
+    width: 350px;
+    /* Set the desired width */
+    word-wrap: break-word;
+    /* Ensures long words or lines break */
+    overflow-wrap: break-word;
+    /* Modern support for word wrapping */
+    line-height: 1.6;
+    /* Adjust spacing between lines for readability */
+    text-align: justify;
+    /* Optional for aligned text appearance */
+    margin-bottom: 15px;
+    /* Space below the paragraph */
+}
+
+.Addtocart {
+    height: 50px;
+    background-color: #ee87b7;
+    width: 180px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.big_stock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.big_deadline {
+    color: #ff6600;
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.big_title {
+    width: 450px;
+    font-size: 20px;
+}

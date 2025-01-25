@@ -1,0 +1,161 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    padding: 70px;
+}
+
+.footerCategory {
+    margin-bottom: 40px;
+    margin-left: 2rem;
+}
+
+.footerCategoryTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.footerCategoryBox {
+    margin-bottom: 20px;
+    display: flex;
+    opacity: 0.65;
+}
+
+a {
+    margin: 10px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.categoryBoxTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+.footerCategoryLink {
+    margin-left: 50px;
+    display: block;
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+    background-color: black;
+    margin: 5px 0;
+    font-size: 16px;
+    /* margin: 10px; */
+    width: auto;
+    margin-left: 10px;
+    /* margin-left: 5rem; */
+}
+
+.footerCategoryLink:hover {
+    color: #f5a623;
+}
+
+.foot_sec_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot_sec_container-h3 {
+    color: white;
+    opacity: 1;
+}
+
+.footerNav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    /* margin-left: 4rem; */
+    /* opacity: 0.65; */
+}
+
+.footerNavList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.footerNavItem {
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+.navTitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255, 1);
+    text-decoration: underline red;
+    font-weight: bold;
+    display: flex;
+    background-color: black;
+}
+
+.footerNavLink {
+    color: #fff;
+    background-color: black;
+    text-decoration: none;
+    opacity: 0.65;
+    font-size: 16px;
+}
+
+.footerNavLink:hover {
+    color: #f5a623;
+}
+
+.iconBox {
+    margin-right: 10px;
+}
+
+.content {
+    font-size: 16px;
+}
+
+
+/* .socialLink {
+    display: flex;
+    gap: 15px;
+    justify-items: center;
+    text-align: center;
+}
+
+.socialLink .footerNavItem a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.socialLink .footerNavItem a:hover {
+    color: #f5a623;
+} */
+
+.footerBottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.paymentImg {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+.copyright a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    color: #f5a623;
+}

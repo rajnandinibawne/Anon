@@ -1,0 +1,15 @@
+.men_pagignation {
+    /* display: flex; */
+    text-align: center;
+    margin: 1px;
+}
+
+button {
+    height: 25px;
+    width: 50px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(59, 213, 213);
+    border-radius: 6px;
+    font-weight: 700;
+}
