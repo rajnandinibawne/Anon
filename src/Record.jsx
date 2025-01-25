@@ -241,85 +241,62 @@ export const WomenBlog = [
         subtitle:"an Australian style expert",
         para : "The platform is designed to be a daily pit stop for everything related to real lifestyle choices...",
     },{
-        id:1,
+        id:2,
         image:"/images/Women/women3.avif",
         heading:"MoodyMo",
         subtitle:"18 Dec 2018 att 11:15",
         para : "Check one more beautiful blog on Jaisalmer India with the name The-universe-dares-you-to-walk-the-unknown...",
     },{
-        id:1,
+        id:3,
         image:"/images/Women/blog1.avif",
         heading:"",
         subtitle:"",
         para : "",
     },{
-        id:1,
+        id:4,
         image:"/images/Women/Blogs.jpg",
         heading:"",
         subtitle:"",
         para : "",
     },{
-        id:1,
+        id:5,
         image:"/images/Women/mainBlog4.jpg",
         heading:"",
         subtitle:"",
         para : "",
     },{
-        id:1,
+        id:6,
         image:"/images/Women/mainBlog5.jpg",
         heading:"",
         subtitle:"",
         para : "",
     },{
-        id:1,
+        id:7,
         image:"/images/Women/mainBlog6.jpg",
         heading:"",
         subtitle:"",
         para : "",
     },{
-        id:1,
-        // image:"D:\newECOM\New-ECOM\src\images\blog-1.jpg",
+        id:8,
+        image:"/images/Women/mainBlog6.jpg",
         heading:"",
         subtitle:"",
         para : "",
     },{
-        id:1,
+        id:9,
         image:"/images/Women/women2.jpg",
         heading:"",
         subtitle:"",
         para : "",
-    },{
-        id:1,
-        image:"",
-        heading:"",
-        subtitle:"",
-        para : "",
-    },{
-        id:10,
-        image:"",
-        heading:"",
-        subtitle:"",
-        para : "",
     },
-
-
-]
-
-export const WomenProducts=[
     {
-        id:1,
-        image:"/images/mens/belt.jpg",
-        title:"Belts",
-        subtitle:"Brown Solid Leather belts",
-        star:"⭐⭐⭐⭐",
-        real:"$100.00",
-        fake:"$120.22",
-        sale:"50% Off"
-    },
+        id:10,
+        image:"/images/Women/women2.jpg",
+        heading:"",
+        subtitle:"",
+        para : "",
+    }
 ]
-
-
-
 const Record = () => {
   return (
     <div>
