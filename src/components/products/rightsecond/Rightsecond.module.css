@@ -106,15 +106,23 @@
 
 .Addtocart {
     height: 50px;
-    background-color: #ee87b7;
+    /* background-color: #ee87b7; */
     width: 180px;
-    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+
+.Addtocarts {
+    height: 100%;
+    width: 100%;
+    background-color: #ee87b7;
     padding: 10px;
     border: none;
     font-size: 1.25rem;
     font-weight: 700;
     color: white;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .big_stock {

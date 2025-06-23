@@ -1,0 +1,251 @@
+.final_cart {
+    margin: 5rem;
+    margin-top: 15rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left_final {
+    width: 50%;
+    /* margin: 5px; */
+    text-align: center;
+    height: 200px;
+    border: 1px solid rgb(166, 253, 166, 0.35);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.right_final {
+    padding: 15px;
+    width: 50%;
+    border: 1px solid rgb(166, 253, 166, 0.35);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.payment {
+    padding: 5px;
+    border: 0.5ps solid pink;
+    height: 30px;
+    width: 180px;
+}
+
+.final_card {
+    /* margin-top: 10px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: black;
+    margin-top: 15px;
+}
+
+.order_btn {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(254, 94, 150);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.order_btn:hover {
+    background-color: deeppink;
+    transform: translate(10%, 5%) scale(1);
+}
+
+.address_form {
+    gap: 15px;
+    width: 100%;
+}
+
+.address_form h4 {
+    padding-left: 5px;
+    color: black;
+}
+
+.address_form input {
+    height: 15px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    gap: 2px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.popup {
+    display: block;
+    /* display: block;
+    z-index: 1000;
+    position: relative;
+    margin-bottom: 50px; */
+    /* margin-top: -150px; */
+    position: fixed;
+    top: 20px;
+    /* Position it near the top */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Center it horizontally */
+    z-index: 1000;
+    width: 30%;
+}
+
+.popup_overlay {
+    /* margin-top: 100px; */
+    display: flex;
+    background-size: cover;
+    justify-content: space-between;
+    height: 375px;
+    width: 100%;
+    margin: auto;
+    /* margin-top: 150px; */
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px;
+    /* margin-bottom: 20px; */
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.popup_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+    gap: 15px;
+}
+
+.track_btn {
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(73, 188, 254);
+    margin-left: 115px;
+    font-size: 1rem;
+    cursor: pointer;
+    /* text-align: center; */
+}
+
+.popup_close_btn {
+    background: rgb(229, 226, 226, 0.4);
+    border: none;
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 90%;
+    border-radius: 50%;
+    /* justify-content: right; */
+}
+
+.popup_content h2 {
+    color: red;
+    font-weight: 600;
+    text-align: center;
+}
+
+.popup_content p {
+    text-align: center;
+    font-size: 1rem;
+    opacity: 0.68;
+    margin-left: 10px;
+}
+
+.order_icon {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: rgb(54, 255, 47, 0.7);
+    color: white;
+    align-items: center;
+    padding: 5px;
+    /* margin: 10px; */
+    margin-left: 175px;
+}
+
+.order_track {
+    margin: 5rem;
+    /* border: 1px solid rgb(28, 28, 27, 0.3); */
+    border-radius: 20px;
+    background-color: rgb(240, 248, 255, 0.5);
+    height: 350px;
+    padding: 15px;
+}
+
+.one_track_info {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.track_progress {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.track_step {
+    /* background-color: #f4f4f4; */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    /* position: relative; */
+}
+
+.progress {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.progress::after {
+    content: " ";
+    position: absolute;
+    height: 5px;
+    width: 65%;
+    left: 17rem;
+    right: 17rem;
+    top: 54.5rem;
+    align-items: center;
+    /* bottom: -100px; */
+    background-color: rgb(156, 255, 56);
+    z-index: -1;
+}
+
+.track_step p {
+    /* margin: 0; */
+    font-size: 15px;
+    margin: 5px;
+}
+
+.delivery_track h3 {
+    color: palevioletred;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline rgb(244, 249, 244);
+    text-decoration-thickness: 4px;
+    text-underline-offset: 5px;
+}
+
+.track_step b {
+    color: #54ce58;
+}
+
+.track_icon {
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(156, 255, 56);
+    color: white;
+    text-align: center;
+    margin: 10px;
+    margin-left: 15px;
+    /* z-index: 1000; */
+    position: relative;
+}

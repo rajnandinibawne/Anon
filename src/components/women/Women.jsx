@@ -1,6 +1,8 @@
 import React from 'react'
 import style from './Women.module.css'
-import Womenblog from './blog/WomenBlog'
+import Womenblog from './blog/Womenblog'
+import Womenhero from './hero/Womenhero'
+import Womenproduct from './products/Womenproduct'
 // import Womenblog from './blog/Womenblog'
 const Women = () => {
   return (
@@ -21,7 +23,10 @@ const Women = () => {
         </nav>
       </div>
      {/* <Womenblog/> */}
+     <Womenhero/>
+     <Womenproduct/>
      <Womenblog/>
+     
     
      
     </div>

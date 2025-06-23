@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import style from './Extramen.module.css'
 import Pagignation from './pagignation/Pagignation'
 import {ExtraMen} from'../../../Record'
+import { Link } from 'react-router-dom'
 const Extramen = () => {
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -30,17 +31,21 @@ const Extramen = () => {
        
 
       {currentPosts.map((item)=>(
+       
         <div className={style.extra_men_card}  key={item.id} >
+            <Link to={`/product/${item.id}`} className={style.Single_link}>
+          
             <div className={style.image}><img src={item.image} alt='PIC' className={style.image} /></div>
             <div className={style.card_info}>
             <div className={style.card_title}>{item.title}</div>
             <div className={style.card_subtitle}>{item.subtitle}</div>
-            <div className={style.card_star}>{item.star}</div>
+            <div className={style.card_star}>{item.stars}</div>
             <div className={style.card_price}>
-              <div className={style.real_price}>{item.real}</div>
-              <del className={style.fake_price}>{item.fake}</del>
+              <div className={style.real_price}>{item.realprice}</div>
+              <del className={style.fake_price}>{item.fakeprice}</del>
             </div>
             </div>
+            </Link>
         </div>
       ))}
       </div>

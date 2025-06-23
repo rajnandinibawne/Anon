@@ -1,0 +1,131 @@
+.women_hero {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    /* border: 2px solid black; */
+    height: 450px;
+    background-color: rgb(234, 191, 212, 0.15);
+}
+
+.girl_image {
+    height: 350px;
+    width: 350px;
+    /* margin: 25px; */
+    margin-top: 70px;
+    z-index: 1000;
+    /* margin-right: 15px; */
+    /* align-items: end; */
+}
+
+.left_image {
+    height: 350px;
+    width: 350px;
+    /* margin: 25px; */
+    margin-top: 70px;
+    /* z-index: 1000; */
+    opacity: 0.5;
+}
+
+.women_bg {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero_bg {
+    height: 420px;
+    width: 310px;
+    margin: 20px;
+    background-color: rgba(252, 24, 24, 0.35);
+    border-radius: 95px 0 95px 0;
+}
+
+.left_up {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.trend_title {
+    color: #000;
+    font-size: 2.5rem;
+    width: 200px;
+    /* margin-left: -50px; */
+}
+
+.hero_btn {
+    height: 45px;
+    width: 150px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: rgb(246, 142, 160);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 0 15px 0 15px;
+    transition: background-color 0.3s ease;
+}
+
+.hero_btn:hover {
+    background-color: #e94e24;
+}
+
+.views {
+    display: flex;
+    margin-top: 15px;
+    gap: 35px;
+    /* width: 350px; */
+}
+
+.right_hero {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right_up {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 110px;
+    width: 220px;
+    background-color: white;
+    border-radius: 35px 0 35px 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* text-align: left; */
+}
+
+.right_btn {
+    color: whitesmoke;
+    height: 45px;
+    width: 150px;
+    border-radius: 0 15px 0 15px;
+    background-color: rgb(255, 125, 182);
+    /* color: white; */
+    cursor: pointer;
+    font-size: 1.1rem;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.icon {
+    color: white;
+    font-size: 1.25rem;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.offer_text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.offer_text h2 {
+    margin-left: 10px;
+    color: rgb(33, 99, 160);
+}

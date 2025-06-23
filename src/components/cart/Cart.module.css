@@ -1,0 +1,136 @@
+.main_cart {
+    margin: 5rem;
+    margin-top: 250px;
+}
+
+.cart_heading {
+    /* color: rgb(220, 95, 137); */
+    text-decoration: underline rgb(215, 66, 91, 0.5);
+    text-decoration-thickness: 4px;
+    text-underline-offset: 5px;
+}
+
+.cart_items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.line {
+    opacity: 0.1;
+}
+
+.icons {
+    /* font-size: 1.2rem */
+    opacity: 0.6;
+    margin-top: 5px;
+}
+
+.cart_card {
+    margin-top: 10px;
+    /* height: 120px; */
+    width: 100%;
+    gap: 55px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+.quantity_controls {
+    display: flex;
+    align-items: center;
+    /* gap: 0.5rem; */
+    margin-top: 0.5rem;
+}
+
+.decrement_btn,
+.increment_btn {
+    background-color: white;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.decrement_btn:hover,
+.increment_btn:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.1);
+}
+
+.quantity {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.remove_icon {
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
+.cart_image {
+    height: 100px;
+    width: 90px;
+}
+
+.cart_last {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 50px; */
+}
+
+.continue_btn {
+    height: 55px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: hwb(238 67% 4%);
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.cart_price {
+    opacity: 1;
+    font-size: 1.2rem;
+}
+
+.continue_btn:hover {
+    background-color: rgb(255, 104, 185);
+}
+
+.total_price {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-around;
+    width: 160px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.buy_btn {
+    margin: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: hwb(338 44% 2%);
+    color: white;
+    font-size: 13px;
+}

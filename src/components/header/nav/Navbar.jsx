@@ -23,7 +23,9 @@ const Navbar = () => {
           <NavLink to="/" className={style.navbarlink}>Home</NavLink>
         </li>
         <li>
-        <NavLink to='/categories'   className={style.navbarlink}>Categories</NavLink>
+        <NavLink to='/categories'   className={({ isActive }) =>
+            isActive ? `${style.navbarlink} ${style.active}` : style.navbarlink
+          }>Categories</NavLink>
         </li>
         <li >
           <NavLink to="/mens" 
@@ -84,22 +86,48 @@ const Navbar = () => {
           )}
         </li>
         <li >
-        <NavLink to='/jewellery'   className={({ isActive }) =>
+        <NavLink to='/jewellery' 
+         onMouseEnter={()=>handleMouseEnter('jewellery')}
+         onMouseLeave={handleMouseLeave}
+        className={({ isActive }) =>
             isActive ? `${style.navbarlink} ${style.active}` : style.navbarlink
           }>Jewellery</NavLink>
+          {hoveredItem  === 'jewellery' && (
+            <div className={style.dropdown}>
+              <ul>
+                <li>
+                  <a href="#">Necklace</a>
+                </li>
+                <li>
+                  <a href="#">Earrings</a>
+                </li>
+                <li>
+                  <a href="#">Bangles</a>
+                </li>
+                <li>
+                  <a href="#">Diamond rings</a>
+                </li>
+                <li>
+                  <a href="#">Gold chain</a>
+                </li>
+              </ul>
+            </div>
+          )}
         </li>
         <li>
-         <NavLink to='/perfumes'   className={style.navbarlink}>Perfumes</NavLink>
+         <NavLink to='/perfumes'   className={({isActive}) => isActive ?  `${style.navbarlink} ${style.active}` : style.navbarlink}>
+         Perfumes</NavLink>
         </li>
         
         <li>
-          <a href="#Blogs" className={style.navbarlink}>Blogs</a>
+        <NavLink  to='/blogs'  className={style.navbarlink}>Blogs</NavLink>
         </li>
         <li>
         <NavLink  to='/newoffer'  className={style.navbarlink}>New Offers</NavLink>
         </li>
       </ul>
     </nav>
+    
   );
 };
 

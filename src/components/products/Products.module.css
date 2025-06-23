@@ -97,7 +97,23 @@
     border-radius: 10px;
     margin: 5px;
     display: flex;
+    position: relative;
+    /* flex-direction: column; */
     padding: 10px;
+    z-index: 0;
+}
+
+.cards_product {
+    /* display: none; */
+    /* height: 100px; */
+    /* width: 300px; */
+    /* margin: 5px; */
+    display: flex;
+    position: relative;
+    /* margin-top: -20px; */
+    /* flex-direction: column; */
+    /* padding: 10px; */
+    z-index: 0;
 }
 
 .prod_pic {

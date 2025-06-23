@@ -39,11 +39,11 @@ const Header = () => {
         </form>
       </div>
       
-    </div>
+    </div> 
     <hr />
     <div className={style.second}>
-        <div className={style.logo}>
-            <img src='.\public\logo.svg' alt='Anon-logo'/>
+        <div to='/'  className={style.logo}>
+            <img src='./logo.svg' alt='Anon-logo'/>
         </div>
         <div className={style.search}>
             <input type='search' name='search' placeholder='Enter your product here...' className={style.search_box}/>
@@ -51,7 +51,8 @@ const Header = () => {
         <div className={style.second_last}>
             <IoPersonOutline className={style.second_icon}/>
             <FaRegHeart  className={style.second_icon}/>
-            <IoBagHandle  className={style.second_icon}/>
+            <a href='/cart'  className={style.second_icons} >
+            <IoBagHandle  className={style.second_icon} /></a>
 
         </div>
     </div>

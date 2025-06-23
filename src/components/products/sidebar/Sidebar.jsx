@@ -1,7 +1,9 @@
 // import React from 'react'
-import { FaStar } from "react-icons/fa";
+
 import React, { useState } from "react";
 import style from './Sidebar.module.css'
+import { Link } from "react-router-dom";
+import { BestSellers } from "../../../Record";
 const categories = [
     {
       id: 1,
@@ -73,41 +75,7 @@ const categories = [
         ],
       },
   ];
-  const BestSellers = [
-    {
-            id:1,
-            image:"/images/products/2.jpg",
-            title:"Baby Fabric Shoes..",
-            Stars: <FaStar className={style.star_icon} />,
-            price : "$45.00",
-            fakeprice : "$12.00"
-    },
-        {
-            id:2,
-            image:"/images/products/3.jpg",
-            title:"Men's Hoodies and T-Shirts",
-            Stars: <FaStar className={style.star_icon} />,
-            price : "$45.00",
-            fakeprice : "$18.00"
-    },
-    {
-        id:3,
-        image:"/images/shirt1.jpg",
-        title:"Girl's T-shirts",
-        Stars: <FaStar className={style.star_icon} />,
-        price : "$35.00",
-        fakeprice : "$22.00"
-    },
-    {
-        id:4,
-        image:"/images/products/4.jpg",
-        title:"Jewellery",
-        Stars: <FaStar className={style.star_icon} />,
-        price : "$95.00",
-        fakeprice : "$77.00"
-    }
-]
-
+ 
 
 const Sidebar = () => {
      const [expandedCategory, setExpandedCategory] = useState(null);
@@ -125,12 +93,11 @@ const Sidebar = () => {
               <div key={category.id} className={style.category}>
                 <div
                   className={style.category_name}
-                  onClick={() => toggleCategory(category.id)}
-                >
+                  onClick={() => toggleCategory(category.id)}>
                   <span>{category.icon}</span>
                   <span>{category.name}</span>
                   <button className={style.plus_btn}>
-                    {expandedCategory === category.id ? "−" : "+"}
+                    {expandedCategory === category.id ? "-" : "+"}
                   </button>
                 </div>
                 {expandedCategory === category.id && (
@@ -153,16 +120,19 @@ const Sidebar = () => {
         <div className={style.side_bottom}>
             <h2>Best Sellers</h2>
             {BestSellers.map((item) => (
+              
             <div className={style.card_BestSellers} key={item.id}>
+              <Link to={`/product/${item.id}`} className={style.card_link} >
               <div className={style.prod_pic}><img src={item.image}  className={style.prod_pic} /></div>
               <div className={style.prod_info}>
                 <h4 className={style.prod_title}>{item.title}</h4>
-                <p className={style.prod_subtitle}>{item.Stars}</p>
+                <p className={style.prod_subtitle}>{item.stars}</p>
                 <div className={style.prod_price}>
-                  <p className={style.realprice}>{item.price}</p>
+                  <p className={style.realprice}>{item.realprice}</p>
                   <del className={style.fakeprice}>{item.fakeprice}</del>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
         </div>

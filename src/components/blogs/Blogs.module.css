@@ -1,3 +1,7 @@
+.main_blog {
+    margin-top: 250px;
+}
+
 .Blogs {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

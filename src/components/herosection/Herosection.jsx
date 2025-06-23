@@ -11,8 +11,9 @@ const slides = [
     id: 1,
     topic: "Trending items",
     title: "Women's Latest fashion Sale",
-    subtitle: "Starting at $20.00",
-    // image: "../../images/banner-1.jpg", 
+    subtitle: "Starting 'at $20.00",
+    // image: "../../images/ba
+    // nner-1.jpg", 
     image:banner1,
   },
   {
@@ -58,7 +59,7 @@ const HeroSection = () => {
           key={item.id}
           style={{ backgroundImage: `url(${item.image})` }}
         >
-            <div className="hero_info">
+            <div className={style.hero_info}>
               <div className={style.hero_topic}>{item.topic}</div>
               <div className={style.hero_title}> {item.title}</div>
               <div className={style.hero_subtitle}> {item.subtitle}</div>

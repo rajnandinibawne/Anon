@@ -4,12 +4,24 @@
     gap: 15px;
 }
 
+h1 {
+    margin-bottom: 10px;
+}
+
+.Single_link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    /* Make the link block-level to contain the card */
+    height: 100%;
+}
+
 .new_cards {
     margin-top: 20px;
     /* height: auto; */
     width: auto;
     border: 1px solid rgb(22, 22, 22, 0.1);
-    padding: 15px;
+    /* padding: 15px; */
     border-radius: 15px;
 }
 
@@ -21,12 +33,10 @@
     border-radius: 8px;
 }
 
-
-/* .new_pic {
-    height: 200px;
-    border: 1px solid rgb(202, 142, 142);
-    margin-bottom: 15px;
-} */
+.link {
+    text-decoration: none;
+    color: inherit;
+}
 
 .new_pic {
     position: absolute;
@@ -63,16 +73,22 @@
     opacity: 0.7;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .new_subtitle {
     opacity: 0.5;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .new_stars {
     color: gold;
     font-size: 18px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
 }
 
@@ -80,6 +96,8 @@
     display: flex;
     gap: 20px;
     margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .new_realprice {

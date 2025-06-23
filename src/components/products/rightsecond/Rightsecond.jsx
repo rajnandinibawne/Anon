@@ -3,6 +3,7 @@ import style from './Rightsecond.module.css'
 import DeadlineTimer from './DeadlineTimer'
 import offer1 from '../../../images/offer1.jpg'
 import offer2 from '../../../images/offer2.jpg'
+import { Link } from 'react-router-dom'
 const BigProducts = [
     {
         id: 1,
@@ -47,7 +48,9 @@ const Rightsecond = () => {
                         <h3>{item.realprice}</h3>
                         <del>{item.fakeprice}</del>
                     </div>
-                    <button className={style.Addtocart}>ADD TO CART</button>
+                    <Link to='/cart' className={style.Addtocart}>
+                    <button className={style.Addtocarts}>ADD TO CART</button>
+                    </Link>
                     <div className={style.big_stock}>
                         <p>{item.sold}</p>
                         <p>{item.available}</p>
