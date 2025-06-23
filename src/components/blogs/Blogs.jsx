@@ -2,7 +2,7 @@ import React from 'react'
 import style from './Blogs.module.css'
 import { BlogItem } from '../../Record'
 // import Womenblog from '../women/blog/Womenblog'
-import Womenblog from '../../women/blog/Womenblog'
+import Womenblog from '../women/blog/Womenblog'
 import Menblog from '../mens/menblog/Menblog'
 const Blogs = () => {
   return (
