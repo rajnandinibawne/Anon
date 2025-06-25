@@ -36,3 +36,9 @@
     text-decoration-thickness: 2px;
     text-underline-offset: 5px;
 }
+
+@media (max-width: 768px) {
+    .women_navbar {
+        display: none;
+    }
+}

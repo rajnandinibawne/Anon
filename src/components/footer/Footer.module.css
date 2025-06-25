@@ -159,3 +159,36 @@ a {
 .copyright a:hover {
     color: #f5a623;
 }
+
+@media (max-width: 768px) {
+    /* Hide all footer sections except footerBottom and paymentImg */
+    .footerNav,
+    .foot_sec_container,
+    .footerCategory,
+    .footerCategoryBox,
+    .footerNavList,
+    .iconBox,
+    .navTitle,
+    .footerCategoryTitle,
+    .footerCategoryLink,
+    .footerNavItem,
+    .footerNavLink,
+    .categoryBoxTitle,
+    .content {
+        display: none !important;
+    }
+    .footer {
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .paymentImg {
+        display: block !important;
+        margin: 0 auto 10px auto;
+        max-width: 150px;
+    }
+    .footerBottom {
+        display: block;
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+}

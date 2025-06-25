@@ -89,3 +89,23 @@ a {
         /* End at the original position */
     }
 }
+
+@media (max-width: 768px) {
+    .navlist {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 5px;
+    }
+    .navbarlink,
+    .navbarlinkr {
+        font-size: 1rem;
+        padding: 5px;
+    }
+    .dropdown {
+        width: 100%;
+        padding: 15px;
+        margin-top: 10px;
+    }
+}

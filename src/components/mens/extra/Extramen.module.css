@@ -61,3 +61,23 @@ h1 {
 .card_title {
     opacity: 0.7;
 }
+
+@media (max-width: 768px) {
+    .extra_men {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 90%;
+    }
+    .whole_card {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 7px;
+        margin: 0;
+    }
+    .image {
+        height: 200px;
+        /* Optional: slightly smaller image on mobile */
+    }
+    .card_info {
+        padding: 10px;
+    }
+}

@@ -16,12 +16,7 @@ import Cart from './components/cart/Cart'
 import Singleproduct from './components/singleproducts/Singleproduct'
 import Final from './components/cart/final/Final'
 
-
-
-
 function App() {
-
-
   return (
   
     <BrowserRouter>

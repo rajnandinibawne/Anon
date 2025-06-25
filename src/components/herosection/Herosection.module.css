@@ -81,3 +81,37 @@
 .hero_btn:hover {
     background-color: #e94e24;
 }
+
+@media (max-width: 760px) {
+    .herosection {
+        width: 100%;
+        height: auto;
+        margin: 0px 10px 10px 10px;
+        gap: 20px;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 10px;
+    }
+    .hero_card {
+        width: 95%;
+        height: auto;
+        padding: 40px 20px;
+        scroll-snap-align: start;
+    }
+    .hero_topic {
+        font-size: 1.4rem;
+    }
+    .hero_title {
+        font-size: 0.65rem;
+        max-width: 100%;
+    }
+    .hero_subtitle {
+        font-size: 0.5rem;
+    }
+    .hero_btn {
+        width: 100px;
+        height: 35px;
+        font-size: 0.8rem;
+        margin-top: 20px;
+    }
+}

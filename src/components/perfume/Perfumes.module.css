@@ -71,3 +71,30 @@ h1 {
 .card_title {
     opacity: 0.7;
 }
+
+@media (max-width: 768px) {
+    .perfume_cat,
+    .whole_card {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 products in a row */
+        gap: 12px;
+        margin-top: -40px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .image {
+        height: 180px;
+    }
+    .card_info {
+        margin: 8px;
+        gap: 4px;
+    }
+    .card_price {
+        font-size: 0.95rem;
+    }
+    .card_title {
+        font-size: 0.85rem;
+    }
+}

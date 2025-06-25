@@ -41,3 +41,9 @@
     height: 240px;
     width: 605px;
 }
+
+@media (max-width: 768px) {
+    .men_AD {
+        display: none;
+    }
+}

@@ -101,3 +101,48 @@
 .hero_btn:hover {
     background-color: #e94e24;
 }
+
+@media (max-width: 768px) {
+    .hero_name {
+        flex-direction: column;
+        height: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        overflow-x: visible;
+        white-space: normal;
+    }
+    .men_hero {
+        padding: 40px 20px;
+        height: auto;
+        background-size: cover;
+    }
+    .hero_info {
+        width: 95%;
+        margin-left: 0;
+        padding: 10px;
+    }
+    .hero_topic {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .hero_title {
+        font-size: 2rem;
+        margin: 10px auto;
+        text-align: center;
+        max-width: 100%;
+    }
+    .hero_subtitle {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .hero_buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .hero_btn {
+        width: 70%;
+        margin: 20px auto 0 auto;
+        font-size: 1rem;
+    }
+}

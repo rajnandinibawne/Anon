@@ -68,3 +68,34 @@ h1 {
 .card_title {
     opacity: 0.7;
 }
+
+@media (max-width: 768px) {
+    .whole_card {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 products per row */
+        margin-left: 1rem;
+        margin-right: 1rem;
+        gap: 12px;
+        padding: 10px 0;
+    }
+    .hero {
+        display: none;
+        /* Hide hero section */
+    }
+    .jewellery {
+        margin-top: 4rem;
+    }
+    .image {
+        height: 180px;
+    }
+    .card_info {
+        margin: 8px;
+        gap: 4px;
+    }
+    .card_price {
+        font-size: 0.95rem;
+    }
+    .card_title {
+        font-size: 0.85rem;
+    }
+}

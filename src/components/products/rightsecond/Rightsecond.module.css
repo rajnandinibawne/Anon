@@ -141,3 +141,65 @@
     width: 450px;
     font-size: 20px;
 }
+
+@media (max-width: 768px) {
+    * {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .bigproducts {
+        width: 100vw;
+        height: auto;
+        gap: 20px;
+        overflow-x: auto;
+        padding-bottom: 10px;
+    }
+    .big_cardoffer {
+        flex-direction: column;
+        width: 90vw;
+        padding: 15px;
+        margin-right: 10px;
+        box-sizing: border-box;
+    }
+    .big_pic {
+        width: 100%;
+        height: 250px;
+        margin: 0 auto 20px auto;
+    }
+    .big_info {
+        padding: 10px 0;
+        max-width: 100%;
+    }
+    .big_price {
+        gap: 15px;
+        font-size: 1rem;
+    }
+    .big_title {
+        width: 100%;
+        font-size: 1rem;
+    }
+    .paras_lorem {
+        width: 100%;
+        font-size: 0.9rem;
+        margin-right: 0;
+    }
+    .Addtocart {
+        width: 100%;
+        margin-right: 0;
+    }
+    .Addtocarts {
+        font-size: 1rem;
+        padding: 8px;
+    }
+    .big_deadline {
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+    .stars {
+        font-size: 1rem;
+    }
+    .big_stock {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

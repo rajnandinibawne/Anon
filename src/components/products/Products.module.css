@@ -155,3 +155,28 @@
 .fakeprice {
     opacity: 0.5;
 }
+
+@media (max-width: 768px) {
+    .products_main {
+        flex-direction: column;
+        margin: 20px auto;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .sidebar {
+        width: 100%;
+        position: static;
+        margin-bottom: 20px;
+    }
+    .right_product {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        width: 100%;
+    }
+    .card_product {
+        width: 100%;
+    }
+    .card_BestSellers {
+        width: 100%;
+    }
+}

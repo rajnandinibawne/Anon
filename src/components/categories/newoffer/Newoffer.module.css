@@ -1,3 +1,10 @@
-.new_offer{
+.new_offer {
     margin: 300px;
+}
+
+@media (max-width: 480px) {
+    .new_offer {
+        margin: 2rem;
+        margin-bottom: 6rem;
+    }
 }

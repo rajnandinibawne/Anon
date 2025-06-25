@@ -40,3 +40,34 @@ li {
     border-radius: 15px;
     margin-top: 15px;
 }
+
+@media (max-width: 768px) {
+    .whole_category {
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding: 15px;
+        margin-bottom: 15px;
+        gap: 15px;
+    }
+    .cat_pic {
+        height: 140px;
+        display: none;
+    }
+    li {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .whole_category {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+    .cat_pic {
+        height: 130px;
+    }
+}

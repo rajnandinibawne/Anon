@@ -24,7 +24,7 @@ const Header = () => {
       <div className={style.first_third}>
         <form action="#">
             <select name='currency' className={style.select}>
-                <option value="USD$ " >USD$</option>
+                <option value="USD$ " className={style.usd}>USD$</option>
                 <option value="eur">EUR</option>
 
             </select>

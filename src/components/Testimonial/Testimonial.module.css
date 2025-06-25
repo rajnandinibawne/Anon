@@ -166,3 +166,9 @@
 .service_title {
     font-weight: 650;
 }
+
+@media (max-width: 768px) {
+    .whole_test {
+        display: none;
+    }
+}

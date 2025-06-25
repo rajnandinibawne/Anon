@@ -138,3 +138,53 @@ del {
     border: none;
     color: #000;
 }
+
+@media (max-width: 768px) {
+    .new_prod {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .new_cards {
+        border-radius: 10px;
+        margin: auto;
+    }
+    .pic_container {
+        height: 130px;
+        border-radius: 6px;
+    }
+    .new_pic {
+        transition: opacity 0.6s ease;
+    }
+    .new_hide_btn {
+        margin-left: 50px;
+        gap: 3px;
+    }
+    .hide_btn {
+        height: 1.3rem;
+        width: 1.3rem;
+        font-size: 0.8rem;
+    }
+    .new_product {
+        font-size: 0.8rem;
+        margin: 6px 8px;
+    }
+    .new_subtitle {
+        font-size: 0.75rem;
+        margin: 0 8px;
+    }
+    .new_stars {
+        font-size: 14px;
+        margin: 8px;
+    }
+    .new_price {
+        gap: 10px;
+        font-size: 0.85rem;
+        margin: 10px 8px 12px 8px;
+    }
+    .new_realprice {
+        font-size: 1rem;
+    }
+    del {
+        font-size: 0.8rem;
+    }
+}
